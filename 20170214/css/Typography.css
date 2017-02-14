@@ -1,6 +1,9 @@
 body{
     /* 공간초기화 */
-    margin: 0;
+    width: 800px;
+    margin: 0 auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     background: url("../images/leading-24px.png")
 }
 p{
