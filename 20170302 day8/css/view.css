@@ -1,0 +1,10 @@
+.v-hidden{
+    color: #E4007F;
+    visibility: hidden;
+}
+
+.hidden{
+    color: #909090;
+    /*visibility: hidden;*/
+    display: none;
+}

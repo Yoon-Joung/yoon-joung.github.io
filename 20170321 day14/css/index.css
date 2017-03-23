@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*
+page-header
+#26d092
+24px * 3 = 72px
+*/
+
+html{
+    overflow-y: visible;
+    min-height: 240vh;
+}
+
+.page-header{
+    min-height: 72px;
+    background: #26d092;
+}
+
+.page-header .brand {
+  font-family: "Apple Chancery";
+  font-size: 1.875rem;
+  letter-spacing: -0.025em;
+}
+
+.brand a {
+  display: block;
+  margin-top: 21px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*gnb*/
+
+.gnb{
+    margin-top: 27px;
+    position: relative;
+    left: 18px;
+}
+
+.gnb li{
+    float: left;
+    margin-right: 43px;
+}
+
+.gnb li :last-child{
+    margin-right: 0;
+}
+
+.gnb a{
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    color: #fff;
+}
+

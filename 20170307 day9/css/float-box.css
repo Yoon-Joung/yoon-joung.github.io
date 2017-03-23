@@ -1,0 +1,37 @@
+body{
+    margin: 4rem;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #eee;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+.red{
+    color: mediumvioletred;
+    border-color: currentColor;
+}
+
+.green{
+    color: lightseagreen;
+    border-color: currentColor;
+}
+
+.blue{
+    color: deepskyblue;
+    border-color: currentColor;
+}
+
+/* 위치 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}

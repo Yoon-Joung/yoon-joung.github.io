@@ -1,0 +1,81 @@
+/* :가상클래스 VS ::가상요소 Psuedo Element*/
+p::selection{
+    background: #E4007F;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+hr{
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px solid #c2d6d1;
+}
+
+.wrapper{
+    /*width, height 속성은 Inline 요소에는 적용되지 않는다.(layout관련된 건 적용 안됨)*/
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-box,
+.inline-box{
+    width: 200px;
+    height: 100px;
+    /*padding-top, padding-bottom은 inline dㅛ소에는 적용되지 않는다.(간격이 벌어지지 않음/공간이 생기지 않음)*/
+    /*margin-top, margin-bottom은 inline dㅛ소에는 적용되지 않는다.*/
+    /*border-top, border-bottom은 inline dㅛ소에는 적용되지 않는다.*/
+    /*padding-top, padding-bottom은 inline dㅛ소에는 적용되지 않는다.*/
+    /*margin: 20px;*/
+    border: 10px solid darkslategrey;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.inline-block-box{
+    display: inline-block;
+    background: #25a04d;
+    color: #ffd219;
+    height: 10px;
+}
+/*img, input = inline block 특징을 가짐 */
+
+.ghost-style-link{
+    /*화면, 디스플레이*/
+    display: inline-block;
+    /*공간 관련*/
+    margin: 20px;
+    border: 3px solid currentColor;
+    padding: 0.9375em 1.25em 0.625em;
+    /*폰트관련*/
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*컬러*/
+    color: #E4007F;
+    /*이펙트*/
+    transition: all 0.45 ease;
+}
+
+/*hover*/
+
+.album-image{
+    /*width: 100%;
+    height: auto;*/
+    margin: 5px 0;
+    border: 6px solid #E4007F;
+    padding: 20px;
+    background-color: #fff;
+    transition: border-color 140ms;
+}
+
+.album-image:hover{
+border-color: #25a04d
+}

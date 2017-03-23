@@ -1,0 +1,31 @@
+/*모던 브러우저는 높이가 작을 경우 스크롤바를 안보여줘서 sub 페이지에서 축이 바뀌는 경우가 있기 때문에!*/
+html{
+    overflow-y: scroll;
+}
+
+.demo{
+    width: 500px;
+    height: 340px;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 1em;
+}
+
+.o-visible{
+    overflow: visible;
+}
+
+.o-hidden{
+    overflow: hidden;
+}
+
+.o-scroll{
+    overflow: scroll;
+    /*overflow-x: scroll;  x축으로 스크롤*/
+    /*overflow-y: scroll;  y축으로 스크롤*/
+}
+
+.o-auto{
+    overflow: auto;
+}
+
